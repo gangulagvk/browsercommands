@@ -16,7 +16,6 @@ public class sita {
 		System.setProperty("webdriver.chrome.driver","E:\\seliniumfiles\\drivers\\chromedriver.exe");
 		WebDriver bo=new ChromeDriver();
 		bo.get("https://www.redbus.in/");
-		
 		//bo.findElement(By.cssSelector("a[id=\"redBus Bus Hire\"]"));
 		//bo.findElement(By.cssSelector("a[class=\"site-links gtm-busHire\"]")).click();
 		//bo.findElement(By.xpath("//a[contains(@class,'site-links gtm-busHire')]")).click();
@@ -31,12 +30,10 @@ public class sita {
 		//System.out.println(z.size());
 		//List<WebElement> g=bo.findElements(By.xpath("//input[@type='checkbox']"));
 		//System.out.println(g.size());
-		
 		//System.out.println(bo.findElement(By.id("redBus Bus Hire")).getSize());
 		//System.out.println(bo.findElement(By.id("redBus Bus Hire")).getLocation());
 		Actions acr=new Actions(bo);
 		//acr.clickAndHold(bo.findElement(By.id("redBus Bus Hire"))).perform();
-		
 		//acr.doubleClick(bo.findElement(By.id("redBus Bus Hire"))).perform();
 		//acr.contextClick(bo.findElement(By.id("redBus Bus Hire"))).perform();
 		Thread.sleep(1000);
