@@ -16,6 +16,13 @@ public class sita {
 		System.setProperty("webdriver.chrome.driver","E:\\seliniumfiles\\drivers\\chromedriver.exe");
 		WebDriver bo=new ChromeDriver();
 		bo.get("https://www.redbus.in/");
+<<<<<<< HEAD
+=======
+		
+		//VAMSIKUMAR GGVK
+		
+		
+>>>>>>> branch 'master' of https://github.com/gangulagvk/browsercommands.git
 		//bo.findElement(By.cssSelector("a[id=\"redBus Bus Hire\"]"));
 		//bo.findElement(By.cssSelector("a[class=\"site-links gtm-busHire\"]")).click();
 		//bo.findElement(By.xpath("//a[contains(@class,'site-links gtm-busHire')]")).click();
